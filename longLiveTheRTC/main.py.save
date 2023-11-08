@@ -1,2 +1,0 @@
-print ('Long live the Milky Way!') a = input ('Enter your number: ') 
-print ('Your enter ' + a)
