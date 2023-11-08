@@ -4,7 +4,12 @@ a[0] = 'a'
 print(a[1], type(a))
 b = [2, 4, 4, 'hi']
 print(b, type(b))
-b.
+
+b.append(10)
+for item in b:
+    print(item, "и его индекс: ", b.index(item))
+    # i = i + 1
+    # print(item, "и его индекс: ", i)
 
 # КОРТЕЖ
 '''a = tuple("string")
